@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invito – Cena di Natale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1, h2 {
+            color:darkslateblue;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 20px;
+            background: #b30000;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Stile menù */
+        .menu-box {
+            background:#e6e0ff;
+            padding:20px; 
+            border-radius:10px;
+            margin-top:35px;
+            text-align:left;
+            line-height:1.6;
+        }
+        .menu-box h3 {
+            color: darkslateblue;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <img class="logo" src="img/logo.jpeg" alt="Logo Squadra">
+
+        <h1>Cena di Natale 2025</h1>
+        <p>Carissimo Sponsor,</p>
+        <p>
+            Siamo lieti di invitarti alla tradizionale <strong>Cena di Natale</strong>  
+            della nostra squadra di calcio.  
+        </p>
+        <p>
+            Sarà un'occasione speciale per festeggiare insieme, ringraziare chi ci sostiene  
+            e condividere i traguardi raggiunti durante questa stagione.
+        </p>
+
+        <h3>📅 Data: <strong>19 Dicembre 2025</strong></h3>
+        <h3>📍 Luogo: <strong>Ristorante KOSTANTEN<br>Strada Statale Trossi 17, Benna</strong></h3>
+        <h3>🕖 Orario: <strong>Ore 20:30</strong></h3>
+
+
+        <!-- SEZIONE MENÙ -->
+        <h2 style="margin-top:40px;">🍽️ Menù della Cena</h2>
+
+        <div class="menu-box">
+            <h3>Antipasti</h3>
+            <ul>
+                <li>Prosciutto crudo</li>
+                <li>Prosciutto cotto</li>
+                <li>Salame</li>
+                <li>Flan di verdure</li>
+            </ul>
+
+            <h3>Primi</h3>
+            <ul>
+                <li>Lasagna</li>
+            </ul>
+
+            <h3>Secondi</h3>
+            <ul>
+                <li>Arrosto di vitello</li>
+                <li>Patate al forno</li>
+            </ul>
+
+            <h3>Bevande</h3>
+            <ul>
+                <li>Acqua</li>
+                <li>Vino sfuso della casa</li>
+            </ul>
+
+            <h3>Dolce</h3>
+            <ul>
+                <li>Pandoro con crema</li>
+            </ul>
+        </div>
+
+
+        <!-- CONFERMA -->
+        <p style="margin-top:35px;">Ti chiediamo di confermare la tua presenza cliccando qui:</p>
+        <a class="btn" href="#" onclick="mostraConferma()">Conferma Presenza</a>
+
+        <script>
+        function mostraConferma() {
+            alert("Grazie! La tua presenza è stata confermata. \nOra però scrivi a Cristina la conferma, questo era solo per bellezza :)");
+        }
+        </script>
+
+
+        <!-- FOOTER -->
+        <div class="footer">
+            Grazie per il tuo prezioso supporto!  
+            <br>— La Società Sportiva:
+            <br><h2>ACF BIELLESE</h2>
+        </div>
+    </div>
+</body>
+</html>
